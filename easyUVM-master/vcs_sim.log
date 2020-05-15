@@ -1,7 +1,7 @@
 Command: ./simv +UVM_TR_RECORD +UVM_VERBOSITY=HIGH +UVM_TESTNAME=rand_test -l vcs_sim.log
 Chronologic VCS simulator copyright 1991-2016
 Contains Synopsys proprietary information.
-Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  May 15 13:41 2020
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  May 15 15:11 2020
 ----------------------------------------------------------------
 UVM-1.1d
 (C) 2007-2013 Mentor Graphics Corporation
@@ -125,24 +125,44 @@ UVM_INFO @ 295500: uvm_test_top.env_h.comp [Comparator Match]
 UVM_INFO @ 298500: uvm_test_top.env_h.comp [Comparator Match] 
 UVM_INFO @ 301500: uvm_test_top.env_h.comp [Comparator Match] 
 UVM_INFO @ 304500: uvm_test_top.env_h.comp [Comparator Match] 
-UVM_INFO /home/hao/wrk/UVM/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 304500: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-UVM_INFO ./env.sv(42) @ 304500: uvm_test_top.env_h [env] Reporting matched 101
+UVM_INFO @ 307500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 310500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 313500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 316500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 319500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 322500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 325500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 328500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 331500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 334500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 337500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 340500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 343500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 346500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 349500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 352500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 355500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 358500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 361500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 364500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO /home/hao/wrk/UVM/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 364500: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ./env.sv(42) @ 364500: uvm_test_top.env_h [env] Reporting matched 121
 
 --- UVM Report Summary ---
 
 ** Report counts by severity
-UVM_INFO :  104
+UVM_INFO :  124
 UVM_WARNING :    0
 UVM_ERROR :    0
 UVM_FATAL :    0
 ** Report counts by id
-[Comparator Match]   101
+[Comparator Match]   121
 [RNTST]     1
 [TEST_DONE]     1
 [env]     1
 $finish called from file "/home/hao/wrk/UVM/uvm-1.1d/src/base/uvm_root.svh", line 430.
-$finish at simulation time               304500
+$finish at simulation time               364500
            V C S   S i m u l a t i o n   R e p o r t 
-Time: 3045000 ps
-CPU Time:      0.610 seconds;       Data structure size:   0.4Mb
-Fri May 15 13:41:49 2020
+Time: 3645000 ps
+CPU Time:      0.600 seconds;       Data structure size:   0.4Mb
+Fri May 15 15:11:32 2020

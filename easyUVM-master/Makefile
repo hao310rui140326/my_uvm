@@ -15,6 +15,5 @@ view_waves:
 
 
 verdi:
-	find -name "*.sv" > d.f
-	verdi -sv -top top  -f d.f &
+	verdi -sv -top top  -f  filelist.f   &
 

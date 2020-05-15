@@ -13,7 +13,7 @@ Command: vcs -full64 -sverilog /home/hao/wrk/UVM/uvm-1.1d/src/dpi/uvm_dpi.cc -CF
 -DVCS -f filelist.f -dpi -ntb_opts +vcd+vcdpluson -debug_all -timescale=1ns/10ps \
 external.o my_rand.o -l vcs_com.log
                          Chronologic VCS (TM)
-         Version L-2016.06_Full64 -- Fri May 15 13:41:31 2020
+         Version L-2016.06_Full64 -- Fri May 15 15:11:04 2020
                Copyright (c) 1991-2016 by Synopsys Inc.
                          ALL RIGHTS RESERVED
 
@@ -362,7 +362,7 @@ g++ -w  -pipe -fPIC -DVCS -O -I/usr/synopsys/L-2016.06/include    -c /home/hao/w
 if [ -x ../simv ]; then chmod -x ../simv; fi
 g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
 -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic  ./../external.o ./../my_rand.o \
-uvm_dpi.o   amcQwB.o objs/amcQw_d.o   _27919_archive_1.so  SIM_l.o      rmapats_mop.o \
+uvm_dpi.o   amcQwB.o objs/amcQw_d.o   _42050_archive_1.so  SIM_l.o      rmapats_mop.o \
 rmapats.o rmar.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /usr/synopsys/L-2016.06/linux64/lib/libzerosoft_rt_stubs.so \
 /usr/synopsys/L-2016.06/linux64/lib/libvirsim.so /usr/synopsys/L-2016.06/linux64/lib/liberrorinf.so \
 /usr/synopsys/L-2016.06/linux64/lib/libsnpsmalloc.so    /usr/synopsys/L-2016.06/linux64/lib/libvcsnew.so \
@@ -372,4 +372,4 @@ rmapats.o rmar.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /usr/synopsys/L-2016.
 -ldl  -lc -lm -lpthread -ldl 
 ../simv up to date
 make[1]: Leaving directory `/home/hao/wrk/UVM/easyUVM-master/csrc'
-CPU time: 12.336 seconds to compile + .429 seconds to elab + .572 seconds to link
+CPU time: 22.075 seconds to compile + .461 seconds to elab + .710 seconds to link
