@@ -1,0 +1,148 @@
+Command: ./simv +UVM_TR_RECORD +UVM_VERBOSITY=HIGH +UVM_TESTNAME=rand_test -l vcs_sim.log
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  May 15 13:41 2020
+----------------------------------------------------------------
+UVM-1.1d
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+VCD+ Writer L-2016.06_Full64 Copyright (c) 1991-2016 by Synopsys Inc.
+UVM_INFO @ 0: reporter [RNTST] Running test rand_test...
+UVM_INFO @ 4500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 7500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 10500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 13500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 16500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 19500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 22500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 25500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 28500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 31500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 34500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 37500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 40500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 43500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 46500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 49500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 52500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 55500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 58500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 61500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 64500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 67500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 70500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 73500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 76500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 79500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 82500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 85500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 88500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 91500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 94500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 97500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 100500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 103500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 106500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 109500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 112500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 115500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 118500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 121500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 124500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 127500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 130500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 133500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 136500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 139500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 142500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 145500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 148500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 151500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 154500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 157500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 160500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 163500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 166500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 169500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 172500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 175500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 178500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 181500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 184500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 187500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 190500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 193500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 196500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 199500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 202500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 205500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 208500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 211500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 214500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 217500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 220500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 223500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 226500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 229500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 232500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 235500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 238500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 241500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 244500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 247500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 250500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 253500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 256500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 259500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 262500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 265500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 268500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 271500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 274500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 277500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 280500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 283500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 286500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 289500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 292500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 295500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 298500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 301500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO @ 304500: uvm_test_top.env_h.comp [Comparator Match] 
+UVM_INFO /home/hao/wrk/UVM/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 304500: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ./env.sv(42) @ 304500: uvm_test_top.env_h [env] Reporting matched 101
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :  104
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[Comparator Match]   101
+[RNTST]     1
+[TEST_DONE]     1
+[env]     1
+$finish called from file "/home/hao/wrk/UVM/uvm-1.1d/src/base/uvm_root.svh", line 430.
+$finish at simulation time               304500
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3045000 ps
+CPU Time:      0.610 seconds;       Data structure size:   0.4Mb
+Fri May 15 13:41:49 2020
