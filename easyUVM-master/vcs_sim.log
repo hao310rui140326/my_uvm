@@ -1,7 +1,7 @@
 Command: ./simv +UVM_TR_RECORD +UVM_VERBOSITY=HIGH +UVM_TESTNAME=rand_test -l vcs_sim.log
 Chronologic VCS simulator copyright 1991-2016
 Contains Synopsys proprietary information.
-Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  May 15 15:33 2020
+Compiler version L-2016.06_Full64; Runtime version L-2016.06_Full64;  May 18 11:15 2020
 ----------------------------------------------------------------
 UVM-1.1d
 (C) 2007-2013 Mentor Graphics Corporation
@@ -145,7 +145,7 @@ UVM_INFO @ 355500: uvm_test_top.env_h.comp [Comparator Match]
 UVM_INFO @ 358500: uvm_test_top.env_h.comp [Comparator Match] 
 UVM_INFO @ 361500: uvm_test_top.env_h.comp [Comparator Match] 
 UVM_INFO @ 364500: uvm_test_top.env_h.comp [Comparator Match] 
-UVM_INFO /home/hao/wrk/UVM/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 364500: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/hao/wrk/my_uvm/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 364500: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
 UVM_INFO ./env.sv(42) @ 364500: uvm_test_top.env_h [env] Reporting matched 121
 
 --- UVM Report Summary ---
@@ -160,9 +160,9 @@ UVM_FATAL :    0
 [RNTST]     1
 [TEST_DONE]     1
 [env]     1
-$finish called from file "/home/hao/wrk/UVM/uvm-1.1d/src/base/uvm_root.svh", line 430.
+$finish called from file "/home/hao/wrk/my_uvm/uvm-1.1d/src/base/uvm_root.svh", line 430.
 $finish at simulation time               364500
            V C S   S i m u l a t i o n   R e p o r t 
 Time: 3645000 ps
-CPU Time:      0.660 seconds;       Data structure size:   0.4Mb
-Fri May 15 15:33:09 2020
+CPU Time:      0.380 seconds;       Data structure size:   0.4Mb
+Mon May 18 11:15:18 2020

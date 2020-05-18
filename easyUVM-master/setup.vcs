@@ -1,7 +1,7 @@
 #!/bin/csh
 
 setenv VCS_HOME /usr/synopsys/L-2016.06 
-setenv UVM_HOME /home/hao/wrk/UVM/uvm-1.1d
+setenv UVM_HOME /home/hao/wrk/my_uvm/uvm-1.1d
 setenv WORK_HOME `pwd`
 setenv SIM_TOOL VCS 
 set path = (/usr/synopsys/L-2016.06/bin ${WORK_HOME}/bin $path)
